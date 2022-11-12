@@ -1,0 +1,14 @@
+{
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "description": "aaaa",
+  "main": "app.ts",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "author": "haiping",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.0"
+  }
+}
