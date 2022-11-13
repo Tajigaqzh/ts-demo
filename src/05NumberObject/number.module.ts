@@ -37,17 +37,24 @@ TypeScript Number 属性:
 正无穷大:Infinity
  */
 
+let num11:Number = new Number(18634563.548)
 
+console.log(num11)
 // number对象方法
 
 // toExponential()把对象的值转换为指数计数法。
+console.log(num11.toExponential())
 
 // toFixed()把数字转换为字符串，并对小数点指定位数。
+console.log(num11.toFixed(2))
 
 // toLocaleString()把数字转换为字符串，使用本地数字格式顺序。
+console.log(num11.toLocaleString())
 
 // toPrecision()把数字格式化为指定的长度。
+console.log(num11.toPrecision(8))
 
 // toString()
 
 // valueOf()
+
