@@ -52,7 +52,7 @@ let names: namelist = {
   2: "b",
 };
 
-interface People {
+interface People1 {
   name: string;
   age?: number;
 }
@@ -60,8 +60,8 @@ interface Man {
   sex: boolean;
 }
 
-const zs = (man: Man & People): void => {
+const zs = (man: Man & People1): void => {
     console.log(man)
 };
-zs({name:'a',sex:true,age:18})
+zs({sex:true,name:"sss"})
 

@@ -2,7 +2,9 @@ let arr1: number[] = [1, 2, 3];
 let arr2: string[] = ["aaa", "bbb", "ccc"];
 
 let arr3: Array<String> = ["1", "2", "3"];
+// 联合类型
 let arr4: Array<string | number> = ["1", 2, "3"];
+
 // 多种数据类型
 let arr6: Array<any> = ["1", 3, true, undefined];
 
@@ -15,4 +17,11 @@ let arr8: number[][] = [
   [1, 2],
   [3, 4],
 ];
+
+// 数组解构
+const arr9:Array<number> = [12,13]
+const [g,h] = arr9
+console.log(g)
+console.log(h)
+
 
