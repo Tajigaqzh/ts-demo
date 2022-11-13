@@ -40,7 +40,7 @@ class C implements AA,BB{
     getName:()=> string
 }
 // 实现混入的函数
-Mixins(C, [A, B])
+
 function Mixins(curCls: any, itemCls: any[]) {
     itemCls.forEach(item => {
         Object.getOwnPropertyNames(item.prototype).forEach(name => {
@@ -48,3 +48,4 @@ function Mixins(curCls: any, itemCls: any[]) {
         })
     })
 }
+Mixins(C, [AA, BB])
